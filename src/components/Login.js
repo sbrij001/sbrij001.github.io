@@ -50,6 +50,7 @@ class Login extends React.Component {
   render() {
     return (
       <div className="login-page">
+
         <div className="form2">
           <h1>Please Login </h1>
           <form className="login-container" onSubmit={this.handleSubmit}>
@@ -64,14 +65,14 @@ class Login extends React.Component {
             </div>
             <div>
             <input
-              type="text"
+              type="password"
               value={this.state.password}
               onChange={this.handleChange}
               placeholder="password"
-              name="password"
+              name="Password"
+
             />
             </div>
-            
             <input type="submit" value="Log In" />
           </form>
         </div>
