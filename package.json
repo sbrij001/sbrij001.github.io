@@ -39,5 +39,22 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.7.0",
     "gh-pages": "^2.0.1"
+  },
+  "description": "[**Blog Link**](https://scotch.io/tutorials/building-an-online-retail-dashboard-in-react)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbrij001/sbrij001.github.io.git"
+  },
+  "keywords": [
+    "Stock",
+    "Aid",
+    "Financial",
+    "Literacy"
+  ],
+  "author": "Stockaid LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbrij001/sbrij001.github.io/issues"
   }
 }
