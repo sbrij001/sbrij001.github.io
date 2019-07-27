@@ -7,7 +7,7 @@ import LandingPageImage from './LandingPageImage';
 const Home = props => {
   return (
     <div>
-    <Navbar/>
+
     <LandingPageImage/>
     </div>
   );

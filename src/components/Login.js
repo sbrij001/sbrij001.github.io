@@ -9,11 +9,15 @@ const Login = () => (
     <Form>
       <label className="welcome">Welcome to Stockaid</label>
       <Form.Field>
-        <label>Email</label>
+      <div>
+        <label className="label">Email</label>
+      </div>
         <input placeholder="Email" />
       </Form.Field>
       <Form.Field>
-        <label>Password</label>
+      <div>
+        <label className="label">Password</label>
+        </div>
         <input placeholder="Password" />
       </Form.Field>
       <Button color="orange" className="submit" type="submit">
